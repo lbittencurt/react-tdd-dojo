@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Main /> should render the heading 1`] = `
+exports[`<Main /> should render component and validate snapshot 1`] = `
 .c0 {
-  background-color: #06092b;
-  color: #fff;
+  background-color: #fafafb;
+  color: #4a4a4a;
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -25,47 +25,39 @@ exports[`<Main /> should render the heading 1`] = `
   justify-content: center;
 }
 
-.c1 {
-  width: 25rem;
-  margin-bottom: 2rem;
-}
-
 .c2 {
+  color: #4a4a4a;
   font-size: 2.5rem;
 }
 
 .c3 {
+  color: #797979;
   font-size: 2rem;
   font-weight: 400;
 }
 
-.c4 {
-  margin-top: 3rem;
-  width: min(30rem,100%);
+.c1 {
+  margin-bottom: 3rem;
+  width: min(10rem,100%);
 }
 
 <main
   class="c0"
 >
   <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
+    alt="Um desenvolvedor de frente para uma tela com código."
     class="c1"
-    src="/img/logo.svg"
+    src="/img/react-atom-icon.svg"
   />
   <h1
     class="c2"
   >
-    React Avançado
+    React Boilerplate
   </h1>
   <h2
     class="c3"
   >
     TypeScript, ReactJS, NextJS e Styled Components
   </h2>
-  <img
-    alt="Um desenvolvedor de frente para uma tela com código."
-    class="c4"
-    src="/img/hero-illustration.svg"
-  />
 </main>
-`
+`;

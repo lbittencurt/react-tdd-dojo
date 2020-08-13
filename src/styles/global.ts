@@ -13,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
 
   html, body, #__next {
     height: 100%;
+    background-color: #FAFAFA;
   }
 
   body {
